@@ -1,0 +1,47 @@
+#search-filters-icon {
+    cursor: pointer;
+}
+
+.search-header .filter-column {
+    display: block;
+}
+
+input:checked+ span {
+    color: #c8c8c8;
+}
+input{
+    color: #a67676;
+
+}
+
+time {
+    bottom: 7px;
+    left: 29px;
+}
+.pt-5, .py-5 {
+    padding-top: 6rem!important;
+}
+
+@media (max-width: 767px) {
+    .card .card-top-image {
+        width: 100%;
+    }
+
+    .card .card-horizontal time {
+        left: 10px;
+    }
+
+    .card .card-horizontal .fa-play {
+        right: 48%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .card .card-horizontal .card-body .channel-img {
+        display: block;
+        margin-top: 10px;
+    }
+    .card .card-horizontal .card-body .channel-img>img {
+        margin-right: 0px !important;
+    }
+}

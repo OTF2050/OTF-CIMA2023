@@ -1,0 +1,77 @@
+body{
+    color: white;
+}
+.card:hover {
+    transform: translateY(0%);
+}
+.card{
+    background-color: #050404;
+}
+
+.watch-page .watch-icons {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+}
+
+.watch-icons i:hover {
+    cursor: pointer;
+}
+
+.watch-page #more {
+    display: none;
+
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.card-inner {
+    display: none;
+}
+
+.publis-comments .card .btn {
+    background-color: #060606;
+    border-color: #444040;
+    color: #fff;
+}
+
+.publis-comments .card .btn:hover {
+    background-color: #100f10;
+}
+
+time {
+    left: 19px !important;
+}
+
+.watch-page .fa-play {
+    right: 46% !important;
+}
+.modal-footer{
+color: #000 !important;
+}
+body {
+    color: #495057;
+}
+
+@media (min-width: 992px) {
+    time {
+        font-size: 13px;
+    }
+    .fa-play {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    #myBtn {
+        margin-bottom: 60px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .reply-time {
+        font-size: 10px;
+    }
+}
